@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/static/js/main.eaea7d93.chunk.js",
-    "main.js.map": "/static/js/main.eaea7d93.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.47f66a16.js",
-    "runtime-main.js.map": "/static/js/runtime-main.47f66a16.js.map",
-    "static/js/2.33b68595.chunk.js": "/static/js/2.33b68595.chunk.js",
-    "static/js/2.33b68595.chunk.js.map": "/static/js/2.33b68595.chunk.js.map",
-    "index.html": "/index.html",
-    "static/js/2.33b68595.chunk.js.LICENSE.txt": "/static/js/2.33b68595.chunk.js.LICENSE.txt"
+    "main.js": "/crypto-coin-tracker/static/js/main.eb3bd131.chunk.js",
+    "main.js.map": "/crypto-coin-tracker/static/js/main.eb3bd131.chunk.js.map",
+    "runtime-main.js": "/crypto-coin-tracker/static/js/runtime-main.a2040eb7.js",
+    "runtime-main.js.map": "/crypto-coin-tracker/static/js/runtime-main.a2040eb7.js.map",
+    "static/js/2.b39d9933.chunk.js": "/crypto-coin-tracker/static/js/2.b39d9933.chunk.js",
+    "static/js/2.b39d9933.chunk.js.map": "/crypto-coin-tracker/static/js/2.b39d9933.chunk.js.map",
+    "index.html": "/crypto-coin-tracker/index.html",
+    "static/js/2.b39d9933.chunk.js.LICENSE.txt": "/crypto-coin-tracker/static/js/2.b39d9933.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.47f66a16.js",
-    "static/js/2.33b68595.chunk.js",
-    "static/js/main.eaea7d93.chunk.js"
+    "static/js/runtime-main.a2040eb7.js",
+    "static/js/2.b39d9933.chunk.js",
+    "static/js/main.eb3bd131.chunk.js"
   ]
 }
