@@ -1,26 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { GlobalStyle } from './GlobalStyled';
+import Chart from './routes/Chart';
+import Coin from './routes/Coin';
+import Coins from './routes/Coins';
+import Price from './routes/Price';
+import { ReactQueryDevtools } from 'react-query/devtools';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<>
+			<GlobalStyle />
+			<Router basename={process.env.PUBLIC_URL}>
+				<Routes>
+					<Route path='/' element={<Coins />} />
+					<Route path='/:coinId' element={<Coin />}>
+						<Route path='price' element={<Price />} />
+						<Route path='chart' element={<Chart />} />
+					</Route>
+				</Routes>
+			</Router>
+			<ReactQueryDevtools initialIsOpen={true} />
+		</>
+	);
 }
 
 export default App;
